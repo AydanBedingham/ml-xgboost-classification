@@ -3,7 +3,7 @@ Jupyter Notebook that trains an XGBoost model to perform classification to detec
 
 Original Data Source: https://www.kaggle.com/sulianova/cardiovascular-disease-dataset
 
-Features:
+## Features:
 - Age | Objective Feature | age | int (days)
 - Height | Objective Feature | height | int (cm) |
 - Weight | Objective Feature | weight | float (kg) |
@@ -17,14 +17,14 @@ Features:
 - Physical activity | Subjective Feature | active | binary |
 - Presence or absence of cardiovascular disease | Target Variable | cardio | binary |
 
-Tasks:
-- 1. Load the Dataset 
-- 2. Perform Exploratory Data Analysis
-- 3. Perform Data Visualisation
-- 4. Create Training and Testing Datasets
-- 5. Train an XG-Boost classifier model (locally not using SageMaker)
-- 6. Perform GridSearch Hyperparameter Optimisation
-- 7. Train an XG-Boost classifier model (using Amazon SageMaker)
-- 8. Deploy trained model as an endpoint
-- 9. Assess trained model performance
-- 10. Delete the endpoint
+## Tasks:
+- Load the Dataset 
+- Perform Exploratory Data Analysis
+- Perform Data Visualisation
+- Create Training and Testing Datasets
+- Train an XG-Boost classifier model (locally not using SageMaker)
+- Perform GridSearch Hyperparameter Optimisation
+- Train an XG-Boost classifier model (using Amazon SageMaker)
+- Deploy trained model as an endpoint
+- Assess trained model performance
+- Delete the endpoint
